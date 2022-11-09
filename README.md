@@ -1,6 +1,13 @@
 # American-Express---Default-Prediction
+Competitions from the kaggle platform: https://www.kaggle.com/competitions/amex-default-prediction
 
-# Steps to run
+**Build**
+```bash
+$ git clone https://github.com/zeio99/American-Express---Default-Prediction.git
+$ cd code
+```
+
+# 1. Steps to run
 - 1 Download the raw dataset and save it to the input/amex-default-prediction directory.
 Download the processed dataset to the input/amex-data-integer-dtypes-parquet-format directory
 (https://www.kaggle.com/datasets/raddar/amex-data-integer-dtypes-parquet-format)
@@ -11,8 +18,7 @@ Download the processed dataset to the input/amex-data-integer-dtypes-parquet-for
 - 6 Run code/infer.ipynb to get the fusion results
 
 
-
-# Some dependent packages need to be installed by yourself
+# 2. Prerequisites
 - pandas
 - numpy
 - lightgbm
